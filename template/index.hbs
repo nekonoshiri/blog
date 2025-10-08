@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="favicon.ico">
+
+<title>猫野詩梨帳</title>
+
+<header>
+  <h1>猫野詩梨帳（仮）</h1>
+  <p>猫野詩梨 (<a href="https://x.com/CyLomw">@CyLomw</a>) のブログ（仮）。
+</header>
+
+<aside>
+  <p>このブログは工事中です。代わりに以下のブログをご覧ください：
+  <ul>
+    <li><a href="https://cylomw.hatenablog.com">猫野詩梨帳</a>
+    <li><a href="https://myuaro.hatenablog.com">ミューアロ向上委員会</a>
+  </ul>
+</aside>
+
+<main>
+  <h2>記事一覧</h2>
+    {{#each articles}}
+      <article>
+        <h3><a href="{{href}}">{{title}}</a></h3>
+        <time datetime="{{date}}">{{date}}</time>
+      </article>
+    {{/each}}
+</main>
