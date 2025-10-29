@@ -6,7 +6,7 @@
     "build": "cnako3 build.nako3"
   },
   "devDependencies": {
-    "nadesiko3": "^3.7.8",
+    "nadesiko3": "^3.7.9",
     "nadesiko3-htmlparser": "^3.7.8",
     "nadesiko3-simple-handlebars-template": "^1.0.0"
   },
