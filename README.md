@@ -1,26 +1,15 @@
 # blog
 
-猫野詩梨 ([@nekonoshiri](https://github.com/nekonoshiri)) のブログ（工事中）。
-
-## 必要なもの
-
-- Node.js (v24 以上)
-- npm
-
-## 準備
-
-以下のコマンドで依存パッケージをインストールします。
-
-```sh
-npm install
-```
-
-## 利用できるスクリプト
-
-- `npm run build`: ブログのビルドを行います。
+猫野詩梨 ([@nekonoshiri](https://github.com/nekonoshiri)) のブログ。
 
 ## ディレクトリ構成
 
-- `article/`: ブログ記事を配置するディレクトリ。
-- `docs/`: ビルドされたブログが配置されるディレクトリ。このディレクトリが GitHub Pages として公開されます（予定）。
-- `template/`: レイアウト等のテンプレートを配置するディレクトリ。
+- `docs/`: 公開ディレクトリ。このディレクトリが GitHub Pages として公開されます。
+
+> [!NOTE]
+>
+> GitHub Pages では、GitHub Actions ワークフローを使用 **せずに** サイトを公開する場合、リポジトリのルートディレクトリ
+> (`/`) か、`/docs` ディレクトリのいずれかを公開ディレクトリとして指定できます。
+>
+> See: [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
