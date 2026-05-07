@@ -3,7 +3,7 @@ body {
   max-width: 40rem;
   margin: 2rem auto;
   padding: 0 1rem;
-  
+
   > header {
     border-bottom: 1px solid gainsboro;
   }
