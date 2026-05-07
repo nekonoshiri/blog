@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css">
+
+<title>猫野詩梨帳</title>
+
+<header>
+  <h1>猫野詩梨帳</h1>
+  <p>猫野詩梨 (<a href="https://x.com/CyLomw">@CyLomw</a>) のブログ。</p>
+</header>
+
+<main id="index-main">
+  <h2>記事一覧</h2>
+
+  {{#each articles}}
+  <article>
+    <h3><a href="{{this.url}}">{{this.title}}</a></h3>
+    <time datetime="{{this.date}}">{{this.date}}</time>
+    <ul>
+      {{#each this.categories}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+  </article>
+
+  {{/each}}
+</main>
+
+<footer></footer>

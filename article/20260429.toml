@@ -1,0 +1,65 @@
+title = 'ブログを移行したい'
+categories = ['雑記', 'プログラミング']
+content = '''
+    <aside>
+      <p>注：この記事ははてなブログに書かれていたものです。</p>
+    </aside>
+
+    <p>ごきげんよう</p>
+    <p>ねこのしりです</p>
+    <p>あたくしはソフトウェアエンジニアだし</p>
+    <p>自分のブログくらい自分で作らなあかん！</p>
+    <p>と思っている（べつにそんなことはない）</p>
+    <p>ので</p>
+    <p>とりあえず作った ↓</p>
+
+    <p><a href="https://nekono-lab.page/blog/">猫野詩梨帳</a></p>
+
+    <p>このページはなんと</p>
+    <p><a href="https://github.com/nekonoshiri/blog/tree/3fcad8d6b92dcd2c4c47b86ffcaa245c44701d4b">2026/04/29 時点でのソースコード</a> を見てもらうとわかるように</p>
+    <p>ただ HTML <sup><a href="#fn1" id="ref1">[1]</a></sup> を手書きしているだけ！</p>
+
+    <p>カテゴリ検索もコメント機能もないし</p>
+    <p>更新するときも手で HTML 書かんといけんので</p>
+    <p>めんどい！</p>
+    <p>ということで</p>
+    <p>まだしばらくは移行できない気がします</p>
+    <p>完全に移行できるようになったらちゃんとお知らせするからね</p>
+    <p>てか</p>
+    <p>ブログ向けの静的サイトジェネレータ <sup><a href="#fn2" id="ref2">[2]</a></sup> なんて腐るほどあるんだから</p>
+    <p>それを使ったらいいじゃん</p>
+    <p>という意見については</p>
+    <p>その通り！！！！！！！！！！！！！！！！！！！！！！！！！</p>
+
+    <h3>おまけ</h3>
+
+    <p>来週はゴールデンウィークですね</p>
+    <p>もうゴールデンウィークの人もいるのかな？（ゴールデンウィークとは？）</p>
+    <p>みんなはゴールデンウィークなにするの？</p>
+    <p>あたしは</p>
+    <p>リンネア先生になります</p>
+    <p>じゃなくて</p>
+    <p>スタレのストーリーぜんぜん追いついてないからやらなきゃ</p>
+
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ゴールデンウィークはリンネア先生になろうかな</p>&mdash; ねこのしり (@CyLomw) <a href="https://twitter.com/CyLomw/status/2049337750734975103?ref_src=twsrc%5Etfw">April 29, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p>リンネア先生の伝説任務やったけど</p>
+    <p>めちゃよかった</p>
+
+    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">駆け込みでリンネアちゃんの伝説任務やったところ無事号泣おたくと相成り申してござりまする</p>&mdash; ねこのしり (@CyLomw) <a href="https://twitter.com/CyLomw/status/2048703945938473455?ref_src=twsrc%5Etfw">April 27, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <p>めがねかけてるときのリンネア先生もめちゃよいので着脱できるようにしてほしさある</p>
+
+    <aside>
+      <ol>
+        <li id="fn1">
+          ウェブページなどを作成するときに使われる言語。<a href="https://github.com/nekonoshiri/blog/blob/3fcad8d6b92dcd2c4c47b86ffcaa245c44701d4b/docs/index.html">こんなやつ</a>。
+          <a href="#ref1">↩</a>
+        </li>
+        <li id="fn2">
+          ブログみたいなウェブページとかを簡単に作れるようなやつ。Jekyll とか。
+          <a href="#ref2">↩</a>
+        </li>
+      </ol>
+    </aside>
+'''
