@@ -1,6 +1,6 @@
 title = 'ブログを移行したい'
 categories = ['雑記', 'プログラミング']
-content = '''
+content_html = '''
 <aside>
   <p>注：この記事ははてなブログに書かれていたものです。</p>
 </aside>

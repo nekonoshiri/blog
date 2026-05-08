@@ -1,6 +1,6 @@
 title = '酒'
 categories = ['雑記']
-content = '''
+content_html = '''
 <p>ごきげんよう</p>
 <p>ねこしりですわよ</p>
 <p>みんなはお酒飲む？</p>

@@ -1,4 +1,5 @@
 ！厳しくチェック。
+！「plugin_markup.mjs」を取り込む。
 ！「nadesiko3-simple-handlebars-template」を取り込む。
 ！「simple-filepath-plugin.js」を取り込む。
 
@@ -26,12 +27,20 @@
 
 　　変数　タイトル＝記事＠「title」。
 　　変数　カテゴリ一覧＝記事＠「categories」。
-　　変数　本文＝記事＠「content」を字下げしたもの。
+
+　　本文とは変数。
+　　もし、記事に「content」がハッシュキー存在すれば
+　　　　本文は、記事＠「content」をマークダウンHTML変換したもの。
+　　違えば、もし、記事に「content_html」がハッシュキー存在すれば
+　　　　本文は、記事＠「content_html」。
+　　違えば、
+　　　　「｛読込パス｝ファイルに、content キーも content_html キーも存在しませんでした。」のエラー発生。
+　　ここまで。
 
 　　テンプレートを｛
 　　　　「date」：日付、
 　　　　「title」：タイトル、
 　　　　「categories」：カテゴリ一覧、
-　　　　「content」：本文
+　　　　「content」：本文を字下げしたもの、
 　　｝でテンプレート評価して書込パスに保存。
 ここまで。
