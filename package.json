@@ -3,12 +3,13 @@
   "name": "@nekonoshiri/blog",
   "version": "0.0.0",
   "scripts": {
-    "build": "npm run clean && cp -r public/ docs/ && cnako3 script/トップページ生成.nako3 && cnako3 script/ブログ記事生成.nako3",
+    "build": "npm run clean && cp -r public/ docs/ && cnako3 script/トップページ生成.nako3 && cnako3 script/ブログ記事生成.nako3 && prettier --print-width 999 --write 'docs/**/*.html'",
     "clean": "rm -rf docs/"
   },
   "devDependencies": {
     "nadesiko3": "^3.7.19",
-    "nadesiko3-simple-handlebars-template": "^1.0.1"
+    "nadesiko3-simple-handlebars-template": "^1.0.1",
+    "prettier": "^3.8.3"
   },
   "engines": {
     "node": ">=26.0.0"
