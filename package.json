@@ -7,7 +7,7 @@
     "clean": "rm -rf docs/"
   },
   "devDependencies": {
-    "nadesiko3": "^3.7.21",
+    "nadesiko3": "^3.7.22",
     "nadesiko3-simple-handlebars-template": "^1.0.1",
     "prettier": "^3.9.6"
   },
