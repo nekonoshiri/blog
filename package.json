@@ -9,7 +9,7 @@
   "devDependencies": {
     "nadesiko3": "^3.8.10",
     "nadesiko3-simple-handlebars-template": "^1.0.1",
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.1"
   },
   "engines": {
     "node": ">=26.0.0"
